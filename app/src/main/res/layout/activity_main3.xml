@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:text="Su historia comienza en 1971 donde algunos meses un grupo de hombres del sector nueva esperanza, buscaban la manera de entretener al sector, en ese momento se comentaron muchas ideas para poder llamar la atención y la entretención, donde sin duda alguna la más llamativa fue realizar un club deportivo el cuál en un principio solo contaba con jugadores del sector, en el mes de Diciembre de dicho año se decidió formar el Club Deportivo Elías Figueroa."
+        android:textAlignment="textStart"
+        android:textColor="#5E35B1"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="376dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:text="Fue el primer club deportivo de la comuna de San Carlos en ganar una copa de campeones a un equipo de la liga asociación Coihueco, donde hasta el día de hoy ellos y todos los hinchas de nuestro club lo recuerdan, donde aparecieron figuras como Ramón Rivera (Arquero De Serie Honor) y Ricardo Sepúlveda (Volante Creativo de Serie Honor) siendo este uno de sus trofeos más importante en su historia."
+        android:textAlignment="textStart"
+        android:textColor="#5E35B1"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="380dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:text="Actualmente cuenta con 9 series las cuales se componen por: Serie Juvenil Sub-16 - Serie De Oro - Serie Súper Senior - Serie Segunda - Serie Senior - Serie Sub-14 - Serie Penecas - Serie Primera y Serie De Honor, Donde actualmente en serie penecas son tetra campeones (4 campeonatos consecutivos) donde en un par de estos han salido campeones sin ni siquiera perder un solo partido."
+        android:textAlignment="textStart"
+        android:textColor="#5E35B1"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
